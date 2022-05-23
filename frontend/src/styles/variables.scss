@@ -1,5 +1,4 @@
 /**
- * @author https://gitee.com/chu1204505056/vue-admin-better （不想保留author可删除）
  * @description 全局主题变量配置
  */
 /* stylelint-disable */
@@ -55,10 +54,7 @@ $base-tag-item-height: 34px;
 //菜单li标签的高度
 $base-menu-item-height: 50px;
 //app-main的高度
-$base-app-main-height: calc(
-  100vh - #{$base-nav-bar-height} - #{$base-tabs-bar-height} - #{$base-padding} -
-    #{$base-padding} - 55px - 55px
-);
+$base-app-main-height: calc(100vh - #{$base-nav-bar-height} - #{$base-tabs-bar-height} - #{$base-padding} - #{$base-padding} - 55px - 55px);
 //纵向布局时左侧导航未折叠时的宽度
 $base-left-menu-width: 256px;
 //纵向布局时左侧导航未折叠时右侧内容的宽度

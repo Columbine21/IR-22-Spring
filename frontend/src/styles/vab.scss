@@ -1,5 +1,4 @@
 /**
- * @author https://gitee.com/chu1204505056/vue-admin-better （不想保留author可删除）
  * @description 全局样式
  */
 
@@ -68,8 +67,10 @@ a {
 * {
   transition: $base-transition;
 }
+
 svg {
   transition: none;
+
   * {
     transition: none;
   }
@@ -106,7 +107,7 @@ html {
     }
 
     /* el-tag开始 */
-    .el-tag + .el-tag {
+    .el-tag+.el-tag {
       margin-left: 10px;
     }
 
@@ -114,6 +115,7 @@ html {
 
     /* markdown编辑器开始 */
     .editor-toolbar {
+
       .no-mobile,
       .fa-question-circle {
         display: none;
@@ -152,10 +154,11 @@ html {
       .app-main-container {
         @include base-scrollbar;
 
-        > [class*='-container'] {
+        >[class*='-container'] {
           * {
             transition: none;
           }
+
           padding: $base-padding;
           background: $base-color-white;
         }
@@ -168,11 +171,11 @@ html {
       z-index: $base-z-index;
 
       .bar {
-        background: $base-color-blue !important;
+        background: $base-color-blue  !important;
       }
 
       .peg {
-        box-shadow: 0 0 10px $base-color-blue, 0 0 5px $base-color-blue !important;
+        box-shadow: 0 0 10px $base-color-blue, 0 0 5px $base-color-blue  !important;
       }
     }
 
@@ -292,16 +295,18 @@ html {
   }
 
   .side-bar-container {
+
     .el-menu-item,
     .el-submenu {
       margin: 7px !important;
       border-radius: 5px !important;
+
       &:hover {
         border-radius: 5px !important;
       }
 
       &.is-active {
-        background: $base-color-default !important;
+        background: $base-color-default  !important;
       }
     }
   }
